@@ -13,29 +13,29 @@
     <parent>
         <groupId>org.eurekaclinical</groupId>
         <artifactId>eurekaclinical-parent-standard-deps</artifactId>
-        <version>3-Alpha-2</version>
+        <version>4-Alpha-4-SNAPSHOT</version>
     </parent>
 
-    <url>https://github.com/eurekaclinical/eurekaclinical-user-agreement-webapp.git</url>
+    <url>https://github.com/arpost/eurekaclinical-user-agreement-webapp.git</url>
 
     <scm>
-        <connection>scm:git:https://github.com/eurekaclinical/eurekaclinical-user-agreement-webapp.git</connection>
-        <developerConnection>scm:git:https://github.com/eurekaclinical/eurekaclinical-user-agreement-webapp.git</developerConnection>
-        <url>https://github.com/eurekaclinical/eurekaclinical-user-agreement-webapp.git</url>
+        <connection>scm:git:https://github.com/arpost/eurekaclinical-user-agreement-webapp.git</connection>
+        <developerConnection>scm:git:https://github.com/arpost/eurekaclinical-user-agreement-webapp.git</developerConnection>
+        <url>https://github.com/arpost/eurekaclinical-user-agreement-webapp.git</url>
         <tag>HEAD</tag>
     </scm>
 	
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/eurekaclinical/eurekaclinical-user-agreement-webapp/issues</url>
+        <url>https://github.com/arpost/eurekaclinical-user-agreement-webapp/issues</url>
     </issueManagement>
     
     <properties>
-        <eurekaclinical-user-agreement-client-version>2.0</eurekaclinical-user-agreement-client-version>
-        <eurekaclinical-common-version>2.0</eurekaclinical-common-version>
-        <eurekaclinical-standard-apis-version>2.0</eurekaclinical-standard-apis-version>
-        <eurekaclinical-user-agreement-service-version>3.0-Alpha-1</eurekaclinical-user-agreement-service-version>
-        <cas-mock-version>2.0</cas-mock-version>
+        <eurekaclinical-user-agreement-client-version>2.3-Beta-2-SNAPSHOT</eurekaclinical-user-agreement-client-version>
+        <eurekaclinical-common-version>6.0-Alpha-1-SNAPSHOT</eurekaclinical-common-version>
+        <eurekaclinical-standard-apis-version>5.0-Alpha-1-SNAPSHOT</eurekaclinical-standard-apis-version>
+        <eurekaclinical-user-agreement-service-version>3.1-Beta-3-SNAPSHOT</eurekaclinical-user-agreement-service-version>
+        <cas-mock-version>2.2-SNAPSHOT</cas-mock-version>
         <jstl-version>1.2</jstl-version>
         <jsp-api-version>2.0</jsp-api-version>
     </properties>
@@ -182,7 +182,7 @@
                     </plugin>
                     <plugin>
                         <groupId>org.codehaus.cargo</groupId>
-                        <artifactId>cargo-maven2-plugin</artifactId>
+                        <artifactId>cargo-maven3-plugin</artifactId>
                         <configuration>
                             <deployables>
                                 <deployable>
